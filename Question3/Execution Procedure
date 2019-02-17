@@ -1,0 +1,43 @@
+Implemented a Flask Web API which can cache the pair of Float values as input and its GetImageURL() response.
+Diagnostic API calls with Hit and Miss counters has been implemented. 
+Execution time for LRU features of Hit, Miss When Full, Miss When Not Full is also provided. 
+
+This Flask application can run on both Python2 and Python3 platforms. 
+
+
+Technology Stack:
+	Python for Backend Work
+	Flask Framework for Frontendwork. 
+	Jinja2 templating embedded into HTML code. 
+
+LRU Cache:
+	For Python2 versions, implemented LRU cache with complete manual code.
+	For Python3 versions, implemented LRU cache using Functools library. 
+
+Notes:
+	Used Dictionaries for Cache handling operations.
+	The Set, Get and Delete operations on a Python Dictionary has an average time complexity of O(1).
+
+
+static: Has multimedia files.
+templates: Has HTML code with Jinja2 embedded. 
+app.py: Primary application file. 
+cache_hitter27.py: Cache Manager when application ran on Python2 versions.
+cache_hitter36.py: Cache Manager when application ran on Python3 versions. 
+
+
+Command: ./app.py
+Result: Open Browser and enter Home page URL and enter inputs for latitude and longitude respectively. 
+
+
+Please refer to API Screen videos recorded and Screenshot pictures for additional reference. 
+
+
+URLS:
+Homepage: http://127.0.0.1:5000/home/
+Latitude and Longitude Diagnostic Response: http://127.0.0.1:5000/latlong/ (This View is valid after Homepage has appropiate inputs.)
+Clear Cache Info - http://127.0.0.1:5000/clearcache/
+
+
+
+
