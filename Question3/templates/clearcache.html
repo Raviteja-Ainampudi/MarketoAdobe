@@ -1,0 +1,58 @@
+<html>
+<title> Marketo/Adobe Web API - Cache Clear </title>
+<style>
+body {
+     background-color:#FFCCCC;
+}
+.header img {
+	float:left;
+	width:200px;
+	height:100px;
+}
+.header h1 {
+     color:#944dff;
+     padding-left: 800px;
+}
+div2 {
+	color: #996633
+}
+h3 {
+     color:#660033;
+}
+div {
+	width: 500px;
+	border: 25px solid black;
+	padding: 20px;
+	margin: 20px;
+	background-color:#99FFDD;
+}
+</style>
+	<body>
+		<div1 class="header">
+		<img src="/static/images.gif" alt="logo" />
+		<h1> Marketo <font color="Red";> Adobe</font> </h1>
+		</div1>
+		<br> </br> <br> </br> 
+		<div2> Flask Web API by Ravi Ainampudi </div2>
+		<h3> Answer for Question 3: Web App built with Flask.</h3>
+		<p> <font color="Navy";> Cache Removed. </p>
+		<div>
+                {% if not flag %}
+			<h4> Cache Info of {{func_out.cache_info().currsize}} elements in the API are cleared: </h4>
+			<p> Cache Remaining - {{func_out.cache_clear()}}</p>
+			<h4> Current API Diagnostics Info: </h4>
+			<p> {{func_out.cache_info()}} </p>
+		{% else %}
+			<h4> Cache Info of {{func_out.info_cache()[-2]}} elements in the API are cleared: </h4>
+			<p> Cache Remaining - {{func_out.clear_cache()}}</p>
+			<h4> Current API Diagnostics Info: </h4>
+			<p> Hits, Misses, CurSize, MaxSize = {{func_out.info_cache()}} </p>
+		{% endif %}
+		</div> 
+		<br> </br> 
+		<form action="http://127.0.0.1:5000/home/" method="GET">
+			<input type="submit" value="Back To Home" name="Back To Home" />
+		</form>
+		
+	</body>
+</html>

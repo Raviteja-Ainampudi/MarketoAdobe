@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<style>
+body {
+     background-color:#E6E6E6;
+}
+.header img {
+	float:left;
+	width:200px;
+	height:100px;
+}
+.header h1 {
+     color:#944dff;
+     padding-left: 800px;
+}
+div2 {
+	color: #996633
+}
+h3 {
+     color:#660033;
+}
+</style>
+<html>
+	<head>
+	<title> Marketo/Adobe Web API - Home </title>
+	</head>
+	<body>
+		<div class="header">
+		<img src="/static/images.gif" alt="logo" />
+		<h1> Marketo <font color="Red";> Adobe</font> </h1>
+		</div>
+		<br> </br> <br> </br> 
+		<div2> Flask Web API by Ravi Ainampudi </div2>
+		<h3> 3) Question: Web App built with Flask.</h3>
+		<form action = "http://127.0.0.1:5000/latlong/" method = "POST">
+			<p> <font color="Teal"> Provide the details of Longitude and Latitude. </font> </p>
+			<p> <b> Latitude should be in range of -90 to +90. </b> </p>
+			<p> Latitude Value: <input type="text" name="lati_value" /> </p>
+			<p> <b> Longitude should be in range of -180 to +180. </b> </p>
+			<p> Longitude Value: <input type="text" name="longi_value" /> </p>
+			<p> <input type = "submit" value = "Submit"> </p>
+		</form>		
+		{% with messages = get_flashed_messages() %}
+			{% if messages %}
+				<h2> {{messages[-1]}} </h2>
+			{% endif %}
+		{% endwith %}
+	</body>
+</html>

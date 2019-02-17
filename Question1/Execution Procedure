@@ -1,0 +1,16 @@
+#Python Version - Python3
+#Cache Implemented? - Yes for SubNet calculator. Using LRU Cache of Functools library. 
+
+Command: ./IpSubVerify.py
+Result: With only filename as argument. Default Unit Test cases written are executed. 
+
+Comamnd: ./IpSubVerify.py <Input File Name> <Output File Name> 
+Result: Pairs of IP Address (Unsigned 32 bit integer) and Subnet are read and evaluated. Verified if IP address present in SubNet. Results in useful fashion are copied on to Outputfile. 
+
+#Or
+
+Comamnd: ./IpSubVerify.py <Unsigned 32 bit IP Address> <SubNet> 
+Result: Pairs of IP Address (Unsigned 32 bit integer) and Subnet are read and evaluated. Verified if IP address present in SubNet. Results in useful fashion are copied on to Outputfile. 
+
+
+#In case any Exceptions, they are printed to STDOUT. 

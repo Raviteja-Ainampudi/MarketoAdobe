@@ -1,0 +1,63 @@
+<html>
+<title> Marketo/Adobe Web API - Results </title>
+<style>
+body {
+     background-color:#FFFFE6;
+}
+.header img {
+	float:left;
+	width:200px;
+	height:100px;
+}
+.header h1 {
+     color:#944dff;
+     padding-left: 800px;
+}
+div2 {
+	color: #996633
+}
+h3 {
+     color:#660033;
+}
+div {
+	width: 500px;
+	border: 25px solid black;
+	padding: 10px;
+	margin: 12px;
+	background-color:#EDDEDB;
+}
+</style>
+	<body>
+		<div1 class="header">
+		<img src="/static/images.gif" alt="logo" />
+		<h1> Marketo <font color="Red";> Adobe</font> </h1>
+		</div1>
+		<br> </br> <br> </br> 
+		<div2> Flask Web API by Ravi Ainampudi </div2>
+		<h3> Answer for Question 3: Web App built with Flask.</h3>
+		<div>
+		<p> Requested Latitude: {{lat_val}} </p>
+		<p> Requested Longitude: {{lon_val}} </p>
+		<h4> Resulting URL is (Random Number Generated): </h4>
+		<p> URL - {{URL_Value }} </p>
+		<h4> API Diagnostics Info: </h4>
+		{% if not flag %}
+			<p> {{func_out.cache_info()}} </p>
+		{% else %}
+			<p> Hits - {{func_out[0]}} Misses - {{func_out[1]}} Current Length - {{func_out[2]}} Total Length - {{func_out[3]}} </p>
+		{% endif %}
+		<h4> Hit or Miss? </h4>
+		<p> {{hit_miss}} </p>
+		<h4> Total Execution Time (e-06 = 10**(-6)) </h4>
+		<p> {{total_exec_time}} Seconds </p>
+		</div> 
+		<p> </p>
+		<form action="http://127.0.0.1:5000/home/" method="GET">
+			<input type="submit" value="Back To Home" name="Back To Home" />
+		</form>
+		<p> </p>
+		<form action="http://127.0.0.1:5000/clearcache/" method="GET">
+			<input type="submit" value="Clear Cache Info" name="Clear Cache Info" />
+		</form>
+	</body>
+</html>

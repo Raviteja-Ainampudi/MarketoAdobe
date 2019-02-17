@@ -1,0 +1,14 @@
+#Any of the Python3 or Bash scripts can be used for the Phone Number replacement in HTML files. 
+#Used Regular Expressions in both. 
+
+#Bash Script
+# A second command can be used if you prefer to have backup of your original html data.
+#A single Pipeline of linux commands has been used for this replacement. 
+Command: ./ChangePhoneNumber.sh
+Result: Phone Numbers are Changed.
+
+#Python3 Script:
+Command: ./ChangePhoneNumber.py 
+Input: <Directory Path of HTML Files>
+Example: /var/www/
+Result: Phone Numbers are Changed. 
