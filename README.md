@@ -1,7 +1,7 @@
 # MarketoAdobe Homework Projects. 
 
 * Each Question folder has their code to solve those problem statements. 
-* Each answer has been provided with execution procedure to explain the apprach of using those code files. 
+* Each answer has been provided with execution procedure to explain the approach of using those code files. 
 
 # Question 1:
     * Used Python3 for data handling. 
