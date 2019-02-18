@@ -5,5 +5,7 @@
 
 # Question 1:
     * Used Python3 for data handling. 
-    * Program can read 32 bit unsigned IP addresses and Subnet pairs from an inputfile and results 
+    * Program can work on argument pairs of 32 bit unsigned IP addresses and Subnet.
+    * Program can also read 32 bit unsigned IP addresses and Subnet pairs from an inputfile and results 
       were written In an useful fashion to an outputfile, when both specified on through the STDIN.  
+    * Has a couple of default Unit Test cases present when no system arguments passed. 
