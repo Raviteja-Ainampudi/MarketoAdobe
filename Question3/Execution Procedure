@@ -28,7 +28,10 @@ cache_hitter36.py: Cache Manager when application ran on Python3 versions.
 
 
 Command: ./app.py
-Result: Open Browser and enter Home page URL and enter inputs for latitude and longitude respectively. 
+Result: Open Browser and enter Home page URL and enter inputs for latitude and longitude respectively. And the logs and HTTP responses are copied to STDOUT. 
+
+Command: nohup ./app.py >> logfile.out&
+Result: Application is now running as a background program. And all the logs and HTTP responses are been saved to logfile.out.
 
 
 URLS:
