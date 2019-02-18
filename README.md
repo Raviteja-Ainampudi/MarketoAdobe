@@ -1,10 +1,10 @@
 # MarketoAdobe Homework Projects. 
 
-:point_right: Each Question folder has their code to solve those problem statements. 
+:key: Each Question folder has their code to solve those problem statements. 
 
-:point_right: Each answer has been provided with execution procedure to explain the approach of using those code files. 
+:key: Each answer has been provided with execution procedure to explain the approach of using those code files. 
 
-:point_right: Caching Web API has been developed in a MVC style.  
+:key: Caching Web API has been developed in a MVC style.  
 
 # Question 1:
   :sunglasses: Reads files from Sys args and Copies useful data to output file. :sunglasses:
@@ -27,7 +27,7 @@
          * Used regular expressions. 
 
 # Question 3:
-   *  Developed Caching Web API using Python, Flask, Jinja2 and HTML. :sparkles: :sparkles:
+   *  Developed Caching Web API using **Python**, **Flask**, **Jinja2** and **HTML**. :sparkles: :sparkles:
    *  API considers float values for latitude in range of (-90, 90) and for longitude in range(-180, 180).
       And return a random number generated as URL. 
    *  Diagnostic API calls with Cache Hit and Miss counters has been implemented. 
@@ -74,4 +74,4 @@
 
 
 
-:v:
+:v: :us: :+1:
