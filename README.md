@@ -27,7 +27,7 @@
          * Used regular expressions. 
 
 # Question 3:
-   *  Developed Caching Web API using **Python**, **Flask**, **HTTP**, **Jinja2** and **HTML**. :sparkles: :sparkles: :sparkles:
+   *  Developed Caching Web API using **Python**, **Flask**, **HTTP1.1**, **Jinja2** and **HTML**. :sparkles: :sparkles: :sparkles:
    *  API considers float values for latitude in range of (-90, 90) and for longitude in range(-180, 180).
       And return a Stub function's random number generated as URL. 
    *  Diagnostic API calls with Cache Hit and Miss counters has been implemented. 
