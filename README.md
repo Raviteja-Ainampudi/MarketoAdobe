@@ -63,4 +63,7 @@
               (This View is valid only after Homepage has appropiate inputs.)
             * Clear Cache Info - http://127.0.0.1:5000/clearcache/
             
-      
+      #### Screencasted Video for API Working Process:    
+      [Google Drive Link](https://drive.google.com/drive/folders/1nkfsuycR6jeogg0X5VfLXiDt-VOZ1Mj_)
+
+      [Github Video](https://github.com/Raviteja-Ainampudi/MarketoAdobe/tree/master/Question3/API_Screen_Video)
