@@ -12,8 +12,8 @@
      * Used Python3 for data handling. 
      * Program can work on argument pairs of 32 bit unsigned IP addresses and Subnet.
      * Program can also read 32 bit unsigned IP addresses and Subnet pairs from an inputfile and results 
-       were written In an useful fashion to an outputfile, when both specified on through the STDIN.  
-     * Has a couple of default Unit Test cases present when no system arguments passed. 
+       were written in an useful fashion to an outputfile, when both are specified on through the STDIN.  
+     * Has a couple of default Unit Test cases present to execute when no system arguments passed. 
 
 # Question 2:
   * Developed two solutions to implement this Phone number / Letter Nmemonics replacement in HTML files. :sweat_smile:
@@ -27,16 +27,16 @@
          * Used regular expressions. 
 
 # Question 3:
-   *  Developed Caching Web API using **Python**, **Flask**, **Jinja2** and **HTML**. :sparkles: :sparkles:
+   *  Developed Caching Web API using **Python**, **Flask**, **Jinja2** and **HTML**. :sparkles: :sparkles: :sparkles:
    *  API considers float values for latitude in range of (-90, 90) and for longitude in range(-180, 180).
-      And return a random number generated as URL. 
+      And return a Stub function's random number generated as URL. 
    *  Diagnostic API calls with Cache Hit and Miss counters has been implemented. 
-   *  Execution time for LRU cache features of Hit, Miss when full and Miss when not full has been implemented. 
-   *  This application can run on both Python2 and Python3 platforms. 
+   *  Execution time for LRU cache features of Hit, Miss when full and Miss when not full is also implemented. 
+   *  This application can run on both Python2 and Python3 platforms. :gift:
    
       #### Caching:
             * For Python2, desgined independent code for LRU caching operations. 
-            * For For Python3, Used LRU Cache tool from Functools library. 
+            * For Python3, Used LRU Cache tool from Functools library. 
             * A Python dictionary is used for caching purposes. Dict has an average time complexity 
               of O(1) for dictionary operations like Get, Set and Delete. 
             * Comment out lines 8,9 or 12,13 in app.py file while switching between Python2 and Python3 environments. 
@@ -66,7 +66,11 @@
             * Latitude and Longitude Diagnostic Response: http://127.0.0.1:5000/latlong/ 
               (This View is valid only after Homepage has appropiate inputs.)
             * Clear Cache Info - http://127.0.0.1:5000/clearcache/
-            
+      
+      #### Logs:
+            * HTTP Success/Error codes can be found in Flask logs in either in STDOUT or in a log file. 
+              Based on your deployment preference. 
+              
       #### Screencasted Video for API Working Process:    
       [API Video in Google Drive](https://drive.google.com/drive/folders/1nkfsuycR6jeogg0X5VfLXiDt-VOZ1Mj_)
 
