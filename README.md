@@ -23,3 +23,44 @@
          * Used regular expressions. 
 
 # Question 3:
+   *  Developed Caching Web API using Python, Flask, Jinja2 and HTML. 
+   *  API considers float values for latitude in range of (-90, 90) and for longitude in range(-180, 180).
+      And return a random number generated as URL. 
+   *  Diagnostic API calls with Cache Hit and Miss counters has been implemented. 
+   *  Execution time for LRU cache features of Hit, Miss when full and Miss when not full has been implemented. 
+   *  This application can run on both Python2 and Python3 platforms. 
+   
+      #### Caching:
+            * For Python2, desgined independent code for LRU caching operations. 
+            * For For Python3, Used LRU Cache tool from Functools library. 
+            * A Python dictionary is used for caching purposes. Dict has an average time complexity 
+              of O(1) for dictionary operations like Get, Set and Delete. 
+            * Comment out lines 8,9 or 12,13 in app.py file while switching between Python2 and Python3 environments. 
+            
+      #### Files:
+            * static - Has Multimedia files
+            * templates - Has HTML code with Jinja2 templating embedded. 
+            * app.py - Primary application file. 
+            * cache_hitter27.py - Cache Manager when application is running on Python2 environment.
+            * cache_hitter36.py - Cache Manager when application is running on Python3 environment.
+            
+      #### Diagnostic API Calls: 
+         ###### Homepage:
+         ![alt text](https://github.com/Raviteja-Ainampudi/MarketoAdobe/blob/master/Question3/API_Screenshots/API%20HomePage.PNG "Logo 1")
+  
+         ###### Cache Miss When Not Full:
+         ![alt text](https://github.com/Raviteja-Ainampudi/MarketoAdobe/blob/master/Question3/API_Screenshots/API%20Cache%20Value%20Miss.PNG "Logo 2")
+         
+         ###### Cache Hit:
+         ![alt text](https://github.com/Raviteja-Ainampudi/MarketoAdobe/blob/master/Question3/API_Screenshots/API%20Cache%20Value%20Hit.PNG "Logo 3")
+         
+         ###### Cache Clear:
+         ![alt text](https://github.com/Raviteja-Ainampudi/MarketoAdobe/blob/master/Question3/API_Screenshots/API%20Cache%20Clear.PNG "Logo 4")
+         
+      #### URLS: 
+            * Homepage: http://127.0.0.1:5000/home/
+            * Latitude and Longitude Diagnostic Response: http://127.0.0.1:5000/latlong/ 
+              (This View is valid only after Homepage has appropiate inputs.)
+            * Clear Cache Info - http://127.0.0.1:5000/clearcache/
+            
+      
