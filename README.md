@@ -7,7 +7,7 @@
 :key: Caching Web API has been developed in a MVC style.  
 
 # Question 1:
-  :sunglasses: Reads files from Sys args and Copies useful data to output file. :sunglasses:
+  Reads files from Sys args and Copies useful data to output file. :sunglasses:
 
     * Used Python3 for data handling. 
     * Program can work on argument pairs of 32 bit unsigned IP addresses and Subnet.
