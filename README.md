@@ -7,13 +7,13 @@
 :key: Caching Web API has been developed in a MVC style.  
 
 # Question 1:
-  * Reads files from Sys args and Copies useful data to output file. :sunglasses:
-
-    * Used Python3 for data handling. 
-    * Program can work on argument pairs of 32 bit unsigned IP addresses and Subnet.
-    * Program can also read 32 bit unsigned IP addresses and Subnet pairs from an inputfile and results 
-      were written In an useful fashion to an outputfile, when both specified on through the STDIN.  
-    * Has a couple of default Unit Test cases present when no system arguments passed. 
+   Reads files from Sys args and Copies useful data to output file. :sunglasses:
+   
+     * Used Python3 for data handling. 
+     * Program can work on argument pairs of 32 bit unsigned IP addresses and Subnet.
+     * Program can also read 32 bit unsigned IP addresses and Subnet pairs from an inputfile and results 
+       were written In an useful fashion to an outputfile, when both specified on through the STDIN.  
+     * Has a couple of default Unit Test cases present when no system arguments passed. 
 
 # Question 2:
   * Developed two solutions to implement this Phone number / Letter Nmemonics replacement in HTML files. :sweat_smile:
