@@ -1,13 +1,14 @@
-#Any of the Python3 or Bash scripts can be used for the Phone Number replacement in HTML files. 
-#Used Regular Expressions in both. 
+#Any of the Bash or Python3 scripts can be used for the Phone Number and its letter mnemonics replacement to 202-456-1414 in HTML files. 
+#Used Regular Expressions in both Bash and Python3. 
 
 #Bash Script
-# A second command can be used if you prefer to have backup of your original html data.
-#A single Pipeline of linux commands has been used for this replacement. 
+    * A SINGLE PIPELINE OF LINUX COMMANDS has been used for this phone number / letter mnemonics replacement. 
+    * Second command can be used if you prefer to have backup of your original html data.
 Command: ./ChangePhoneNumber.sh
 Result: Phone Numbers are Changed.
 
 #Python3 Script:
+    * Python3 code recursively searches for HTML files in the directory. And performs neccessary replacement for phone number / letter mnenonics replacement.
 Command: ./ChangePhoneNumber.py 
 Input: <Directory Path of HTML Files>
 Example: /var/www/
