@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-##!/usr/bin/python3
 #Author - Ravi Ainampudi
 
 from flask import Flask, request, render_template, redirect, url_for, flash, session
