@@ -13,6 +13,7 @@ Technology Stack:
 LRU Cache:
 	For Python2 versions, implemented LRU cache with complete manual code.
 	For Python3 versions, implemented LRU cache using Functools library. 
+	Comment out 8,9 or 12,13 lines respectively when switching between Python2 and Python3.  
 
 Notes:
 	Used Dictionaries for Cache handling operations.
