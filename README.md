@@ -4,10 +4,10 @@
 
 :key: Each answer has been provided with execution procedure to explain the approach of using those code files. 
 
-:key: Caching Web API has been developed in a MVC style.  
+:key: Caching Web API has been developed in a MVC pattern.  
 
 # Question 1:
-   Reads files from Sys args and Copies useful data to output file. :sunglasses:
+   Reads files from sys args and copies useful data to output file. :sunglasses:
    
      * Used Python3 for data handling. 
      * Program can work on argument pairs of 32 bit unsigned IP addresses and Subnet.
