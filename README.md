@@ -1,10 +1,14 @@
 # MarketoAdobe Homework Projects. 
 
-* Each Question folder has their code to solve those problem statements. 
-* Each answer has been provided with execution procedure to explain the approach of using those code files. 
-* Caching Web API has been developed in a MVC style.  
+:point_right: Each Question folder has their code to solve those problem statements. 
+
+:point_right: Each answer has been provided with execution procedure to explain the approach of using those code files. 
+
+:point_right: Caching Web API has been developed in a MVC style.  
 
 # Question 1:
+  :sunglasses: Reads files from Sys args and Copies useful data to output file. :sunglasses:
+
     * Used Python3 for data handling. 
     * Program can work on argument pairs of 32 bit unsigned IP addresses and Subnet.
     * Program can also read 32 bit unsigned IP addresses and Subnet pairs from an inputfile and results 
@@ -12,7 +16,7 @@
     * Has a couple of default Unit Test cases present when no system arguments passed. 
 
 # Question 2:
-  * Developed two solutions to implement this Phone number / Letter Nmemonics replacement in HTML files. 
+  * Developed two solutions to implement this Phone number / Letter Nmemonics replacement in HTML files. :sweat_smile:
     #### Bash Style:
          * Single Pipeline of Linux Commands to solve the problem Statement. 
          * Also provided a solution to retain original HTML data as backup files. 
@@ -23,7 +27,7 @@
          * Used regular expressions. 
 
 # Question 3:
-   *  Developed Caching Web API using Python, Flask, Jinja2 and HTML. 
+   *  Developed Caching Web API using Python, Flask, Jinja2 and HTML. :sparkles: :sparkles:
    *  API considers float values for latitude in range of (-90, 90) and for longitude in range(-180, 180).
       And return a random number generated as URL. 
    *  Diagnostic API calls with Cache Hit and Miss counters has been implemented. 
@@ -67,3 +71,7 @@
       [API Video in Google Drive](https://drive.google.com/drive/folders/1nkfsuycR6jeogg0X5VfLXiDt-VOZ1Mj_)
 
       [API Video in Github](https://github.com/Raviteja-Ainampudi/MarketoAdobe/tree/master/Question3/API_Screen_Video)
+
+
+
+:v:
