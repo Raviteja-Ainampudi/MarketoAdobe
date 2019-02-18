@@ -1,6 +1,6 @@
-Implemented a Flask Web API which can cache the pair of Float values as input and its GetImageURL() response.
-Diagnostic API calls with Hit and Miss counters has been implemented. 
-Execution time for LRU features of Hit, Miss When Full, Miss When Not Full is also provided. 
+	* Implemented a Flask Web API which can cache the pair of Float values as input and its GetImageURL() response.
+	* Diagnostic API calls with Hit and Miss counters has been implemented. 
+	* Execution time for LRU features of Hit, Miss When Full, Miss When Not Full is also provided. 
 
 This Flask application can run on both Python2 and Python3 platforms. 
 
@@ -31,10 +31,9 @@ Result: Open Browser and enter Home page URL and enter inputs for latitude and l
 
 
 URLS:
-Homepage: http://127.0.0.1:5000/home/
-Latitude and Longitude Diagnostic Response: http://127.0.0.1:5000/latlong/ (This View is valid after Homepage has appropiate inputs.)
-Clear Cache Info - http://127.0.0.1:5000/clearcache/
+	Homepage: http://127.0.0.1:5000/home/
+	Latitude and Longitude Diagnostic Response: http://127.0.0.1:5000/latlong/ (This View is valid after Homepage has appropiate inputs.)
+	Clear Cache Info - http://127.0.0.1:5000/clearcache/
 
-Please refer to API Screen videos recorded and Screenshot pictures for additional reference. 
-
+Please refer to API Screen videos recorded and Screenshot pictures for additional reference.
 Google Drive Link for Videos and Code - https://drive.google.com/drive/folders/1nkfsuycR6jeogg0X5VfLXiDt-VOZ1Mj_
