@@ -24,7 +24,7 @@ def clear_cache():
     return 
     
 def info_cache():
-    """Cache Infomation as a list with couter of Hits, Misses, Current Length, Total Length."""
+    """Cache Infomation as a list with counter of Hits, Misses, Current Length, Total Length."""
     return [custom_hit, custom_miss, len(custom_memory), total_custom_memory]
     
 def find_image_url(lat_value, long_value):
