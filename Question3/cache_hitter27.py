@@ -31,12 +31,15 @@ def find_image_url(lat_value, long_value):
     """Cache Building Function. Managing Hits, Misses and Cache Memory."""
     global custom_memory, custom_hit, custom_miss, total_custom_memory
     image_tuple = (lat_value, long_value)
-    if len(custom_memory) < total_custom_memory:
-        if image_tuple in custom_memory:
+    
+    #When Latitude Longitude in Cache and HIT
+    if image_tuple in custom_memory:
             custom_hit+=1
             custom_memory[image_tuple][1] = datetime.now()
             return custom_memory[image_tuple][0],"hit"
-        else:
+    
+    #When Latitude Longitude NOT in Cache and MISS
+    if len(custom_memory) < total_custom_memory:
             custom_miss+=1
             custom_memory[image_tuple] = [GetImageURL(*image_tuple), datetime.now()]
             return custom_memory[image_tuple][0], "miss_when_not_full"
@@ -44,14 +47,9 @@ def find_image_url(lat_value, long_value):
         custom_memory = sorted([(key, list_vals) for key, list_vals in custom_memory.items()], key=lambda i:i[1][1], reverse=False)
         del custom_memory[0]
         custom_memory = dict(custom_memory)
-        if image_tuple in custom_memory:
-            custom_hit+=1
-            custom_memory[image_tuple][1] = datetime.now()
-            return custom_memory[image_tuple][0],"hit"
-        else:
-            custom_miss+=1
-            custom_memory[image_tuple] = [GetImageURL(*image_tuple), datetime.now()]
-            return custom_memory[image_tuple][0], "miss_when_after_full"
+        custom_miss+=1
+        custom_memory[image_tuple] = [GetImageURL(*image_tuple), datetime.now()]
+        return custom_memory[image_tuple][0], "miss_when_after_full"
             
     
 
